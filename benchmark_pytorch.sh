@@ -8,8 +8,8 @@
 
 # devicename: 'cpu' or gpu (e.g. 'cuda:0')
 
-python3 benchmark_pytorch.py --model UNet \
-                             --state_dict UNetDRIVE.pth \
+python3 benchmark_pytorch.py --model M2UNet \
+                             --state_dict M2UNetDRIVE.pth \
                              --dataset DRIVE \
                              --threshold 0.5215 \
                              --devicename cpu \
